@@ -1,0 +1,7 @@
+#!/bin/bash 
+#Author : Amirreza Firoozi
+#License : GPLv3
+m=$#
+for arg; do
+wget https://ssl.gstatic.com/dictionary/static/sounds/de/0/"$arg".mp3
+done
